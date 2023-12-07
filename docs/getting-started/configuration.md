@@ -81,7 +81,7 @@ Generate a SHA-512 encrypted password for the `build_password_encrypted` using t
     Run the following command to generate a SHA-512 encrypted password for the `build_password_encrypted` using mkpasswd.
 
     ```shell
-    mkpasswd -m sha512
+    mkpasswd -m sha512crypt
     ```
 
     The following output is displayed:
